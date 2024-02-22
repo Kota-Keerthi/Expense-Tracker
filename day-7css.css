@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:gray;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+h1{
+    text-shadow: 5px 5px 3px powderblue;
+    font-size: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="number"],
+textarea {
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #15dd1b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover{
+    background-color: rgb(18, 72, 223);
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(234, 12, 164, 0.76);
+}
+
+.expense-list{
+    list-style-type: none;
+    padding: 0;
+}
+.expense-item {
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    display: block;
+    background-color: #f3f0ef;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label:hover{
+    background-color:rgb(167, 238, 14);
+}
+.expense-name{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.expense-summary {
+    text-align: center;
+}
+#totalExpenses{
+    background-color: powderblue;
+    color: black;
+}
